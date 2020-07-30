@@ -1,0 +1,208 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  width: 100%
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+
+/* header 始まり*/
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(235, 117, 143);
+}
+.nav .icon {
+  font-family: 'Libre Baskerville', serif;
+  color: whitesmoke;
+  font-size: 45px;
+  line-height: 100px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navber ul {
+  display: flex;
+}
+.navber ul li a {
+  color: whitesmoke;
+  padding-right: 50px;
+}
+.navber ul li a:hover {
+  color: rgb(226, 43, 98);
+}
+
+/* message-modal-warapper始まり */
+.message-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+.modal {
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  background-color: cornsilk;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+#message-form {
+  width: 100%;
+}
+#message-form  h2 {
+  color: rgb(59, 58, 58);
+}
+#message-form input {
+  width: 350px;
+  padding: 12px 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(59, 58, 58);
+  border-radius: 5px;
+}
+#submit-btn {
+  width: 150px;
+  padding: 10px;
+  background: rgb(235, 117, 143);
+  color: whitesmoke;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.close-modal .fa {
+  font-size: 16px;
+  color: rgb(59, 58, 58);
+}
+
+/* first-warpper 始まり*/
+.pictuer {
+  text-align: center;
+  color: rgb(59, 58, 58);
+}
+.pictuer img {
+  width: 500px;
+  position: relative;
+}
+.click-hear {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+.click-hear:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+.first-wrapper {
+  padding: 70px;
+}
+.plofile {
+  margin: 80px;
+  text-align: center;
+  padding: 50px;
+  display: none;
+  background-color: rgb(217, 243, 245);
+}
+
+
+/* second-wrapper 始まり*/
+.scond-wrapper{
+  background-color: rgb(243, 246, 247);
+}
+.image {
+  width: 300px;
+}
+.click-list {
+  text-align: center;
+}
+
+.click-list ul li {
+  width: 900px;
+  font-size: 24px;
+  color: rgb(59, 58, 58);
+  padding: 20px 0 40px 0;
+  text-align: center;
+}
+.click-list ul li:hover {
+  color: rgb(206, 141, 152);
+  cursor: pointer;
+}
+.popup {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  display: none;
+  background-color: rgb(241, 202, 204);
+  position: relative;
+}
+.popup .image {
+  display: block;
+  margin: 0 auto;
+  padding: 40px;
+}
+.popup p {
+  text-align: center;
+  color: rgb(59, 58, 58);
+}
+.popup span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(59, 58, 58);
+  font-size: 30px;
+}
+.click-list ul {
+  padding: 0;
+}
+
+/* foote始まりr */
+footer {
+  padding: 50px 0;
+}
+
+.sosial {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+.twitter i, .blog i{
+  font-size: 30px;
+  color: rgb(226, 43, 98);
+}
+.twitter {
+  padding-right: 60px;
+}
+.twitter p, .blog p {
+  color: rgb(59, 58, 58);
+}
+.twitter:hover, .blog:hover {
+  opacity: 0.5;
+}
+.footer {
+  font-size: 14px;
+  color: rgb(143, 138, 138);
+  text-align: center;
+  padding-top: 50px;
+}
